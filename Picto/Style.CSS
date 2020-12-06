@@ -1,0 +1,442 @@
+
+html{
+height: 100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #F3F2ED;
+	height: 100%;
+	max-height: 1320px;
+	min-height: 320px;
+	max-width: 1920px;
+	min-width: 414px;
+}
+
+.TopLine{
+	width: 100%;
+	height: 15%;
+	background-color: #E0DFDA;
+	top: 0;
+}
+
+.page{
+	width: 60%;
+	margin: auto;
+}
+
+header{
+	height: 20%;
+	background-color: #FFFFFF;
+}
+
+header .logo{
+	height: 15%;
+	background-color: #343538;
+	
+}
+
+header #logo{
+	font: bold 40px Tahoma;
+	color: #FFFFFF;
+	margin: 20px 0 20px 20px;
+	position: absolute;
+	float: left;
+}
+
+header #logo a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header #RightText{
+	float: right;
+	color: #9A9A9B;
+	font: 13px "Comic sans MS";
+
+	margin: 46px 45px 0 0;
+}
+
+header #RightText a{
+	color: #F6F6F6;
+	text-decoration: none;
+}
+
+header #RightText a:hover{
+	text-decoration: underline;
+}
+
+header .Item_main{
+	height: 500px;
+}
+
+header .Item_main .TopPreview{
+	height: 280px;
+	background: url(Img/top_preview.GIF) no-repeat;
+}
+
+header .Item_main .Details{
+	height: 220px;
+	margin-bottom: 0px;
+}
+
+header .Item_main .Details h3{
+	font: bold 18px Tahoma;
+	color:#343538;
+	margin: 30px 0 25px 25px;
+}
+
+header .Item_main .Details p{
+	font: 14px Tahoma;
+	color:#C1C1C1;
+	margin: 0px 60px 25px 25px;
+	line-height: 1.5;
+}
+
+header .Item_main .Details #BtnDetails{
+	width: 100px;
+	height: 35px;
+	background-color: #343538;
+	border-radius: 30px;
+	margin: 0 0 0 25px;
+	display: inline-block;
+}
+
+header .Item_main .Details #BtnDetails:hover{
+	background-color: #9A9A9B; 
+}
+
+header .Item_main .Details #BtnDetails p{
+	color: #FFFFFF;
+	font: 14px Tahoma;
+	position: relative;
+	top:8px;
+	left:3px;
+}
+
+.Content .ThreeFeatures{
+	margin: 15px 0;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+
+.Content .ThreeFeatures #LeftCol{
+	width: 200px;
+	height: 100%;
+	float: left;
+	background: url(Img/LeftIcon.PNG) no-repeat;
+	background-position: center 30px;
+}
+
+.Content .ThreeFeatures #LeftCol h3{
+	position: relative;
+	top: 85px;
+}
+
+.Content .ThreeFeatures #LeftCol p{
+	position: relative;
+	top: 95px;
+	text-align: center;
+}
+
+.Content .ThreeFeatures #MidCol{
+	width: 200px;
+	height: 100%;
+	float: left;
+	background: url(Img/MidIcon.PNG) no-repeat;
+	background-position: center 30px;
+}
+
+.Content .ThreeFeatures #MidCol h3{
+	position: relative;
+	top: 85px;
+}
+
+.Content .ThreeFeatures #MidCol p{
+	position: relative;
+	top: 95px;
+	text-align: center;
+}
+
+.Content .ThreeFeatures #RightCol{
+	width: 200px;
+	height: 100%;
+	float: left;
+	background: url(Img/RightIcon.PNG) no-repeat;
+	background-position: center 30px;
+}
+
+.Content .ThreeFeatures #RightCol h3{
+	position: relative;
+	top: 85px;
+}
+
+.Content .ThreeFeatures #RightCol p{
+	position: relative;
+	top: 95px;
+	text-align: center;
+}
+
+
+.Content .Sendicate{
+	height: 250px;
+	background: url(Img/Sendicate.PNG) no-repeat; 
+}
+
+.Content .Sendicate h3{
+	width: 220px;
+	position: relative;
+	top: 30px;
+	text-align: left;
+	left: 25px;
+}
+
+.Content .Sendicate p{
+	width: 220px;
+	position: relative;
+	top: 45px;
+	left: 25px;
+}
+
+.Content .UnderSendicate{
+	height: 246px;
+	background: url(Img/UnderSendicate.PNG) no-repeat;
+	background-color: #FFFFFF;
+}
+
+.Content .UnderSendicate h3{
+	text-align: center; 
+	width: 220px;
+	text-align: left;
+	position: relative;
+	top: 30px;
+	left:350px;
+}
+
+.Content .UnderSendicate p{
+	width: 220px;
+	position: relative;
+	top: 45px;
+	left:350px;
+}
+
+.Content .OurWork{
+	height: 460px;
+	background-color: #FFFFFF;
+	margin: 15px 0;
+
+}
+
+.Content .OurWork .WorkText{
+	height: 110px
+}
+
+.Content .OurWork .WorkText h3{
+	position: relative;
+	top: 30px;
+}
+
+.Content .OurWork .WorkText p{
+	position: relative;
+	top: 35px;
+	text-align: center;
+}
+
+.Content .OurWork .WorkExamples{
+	height: 350px;
+}
+
+.Content .OurWork .WorkExamples ol{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 100%;
+}
+
+.Content .OurWork .WorkExamples ol li{
+	height: 175px;
+	width: 200px;
+}
+
+.Content .OurWork .WorkExamples ol #Work1{
+	float: left;
+	background: url(Img/Work1.PNG) no-repeat;
+}
+
+.Content .OurWork .WorkExamples ol #Work2{
+	float: left;
+	background: url(Img/Work2.PNG) no-repeat;
+}
+
+.Content .OurWork .WorkExamples ol #Work3{
+	float: left;
+	background: url(Img/Work3.PNG) no-repeat;
+}
+
+.Content .OurWork .WorkExamples ol #Work4{
+	float: left;
+	background: url(Img/Work4.PNG) no-repeat;
+}
+
+.Content .OurWork .WorkExamples ol #Work5{
+	float: left;
+	background: url(Img/Work5.PNG) no-repeat;
+}
+
+.Content .OurWork .WorkExamples ol #Work6{
+	float: left;
+	background: url(Img/Work6.PNG) no-repeat;
+}
+
+.Content .AdSpace{
+	height: 120px;
+	background-color: #343538;
+	margin: 0 0 15px 0;
+}
+
+.Content .AdSpace p{
+	text-align: center;
+	color: #FFFFFF;
+	font: 18px Tahoma;
+	margin: 0 0 5px 0;
+	position: relative;
+	top: 38px;
+}
+
+.Content .ContentOnly{
+	height: 160px;
+	background-color: #FFFFFF;
+}
+
+.Content .ContentOnly h3{
+	position: relative;
+	top: 30px;
+	left: 25px;
+	margin: 0;
+	text-align: left;
+}
+
+.Content .ContentOnly p{
+
+	margin: 45px 40px 0 25px;
+}
+
+footer{
+	height: 590px;
+    margin: 15px 0 0 0!important;
+}
+
+footer .FootText{
+	height: 395px;
+	background-color: #FFFFFF;
+	background: url(Img/History.PNG) no-repeat;
+	margin-bottom: 15px;
+}
+
+footer .FootText h3{
+	position: relative;
+	margin: 0;
+	top: 30px;
+}
+
+footer .FootText p{
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+footer .Copyright{
+	height: 180px;
+	background-color: #343538;
+}
+
+footer .Copyright ul{
+	position: relative;
+	top: 30px;
+	list-style-type: none;
+	margin: 0 110px;
+	padding: 0;
+	height: 35px;
+
+}
+
+footer .Copyright ul li{
+	display:inline-block;
+	margin-right: 10px;
+	height: 34px;
+	width: 34px;
+}
+
+footer .Copyright ul #soc1{
+	background: url(Img/Soc1.Png) no-repeat;
+}
+
+footer .Copyright ul #soc2{
+	background: url(Img/Soc2.Png) no-repeat;
+}
+
+footer .Copyright ul #soc3{
+	background: url(Img/Soc3.Png) no-repeat;
+}
+
+footer .Copyright ul #soc4{
+	background: url(Img/Soc4.Png) no-repeat;
+}
+
+footer .Copyright ul #soc5{
+	background: url(Img/Soc5.Png) no-repeat;
+}
+
+footer .Copyright ul #soc6{
+	background: url(Img/Soc6.Png) no-repeat;
+}
+
+footer .Copyright ul #soc7{
+	background: url(Img/Soc7.Png) no-repeat;
+}
+
+footer .Copyright ul #soc8{
+	background: url(Img/Soc8.Png) no-repeat;
+	margin-right: 0px;
+}
+
+footer .Copyright p{
+	color: #C7C7C7;
+	font: 14px Tahoma;
+	text-align: center;
+	position: relative;
+	top: 45px;
+	margin-bottom: 22px;
+}
+
+footer .Copyright p a{
+	color: #C7C7C7;
+	text-decoration: none;
+}
+
+footer .Copyright p a:hover{
+	text-decoration: underline;
+}
+.LowLine{
+	min-height: 100%;
+	width: 100%;
+	background-color: #E0DFDA;
+	position: relative;
+	top:-270px;
+	z-index: -1;
+}
+
+.Headline{
+	font: bold 1.6vw Tahoma;
+	font-style: 1.6vh;
+	color:#343538;
+	text-align: center;
+}
+
+.MainText{
+	font-family: Tahoma;
+	font-size: 2vw;
+	font-size: 2vh;
+	color:#C1C1C1;
+	line-height: 1.5;
+}
